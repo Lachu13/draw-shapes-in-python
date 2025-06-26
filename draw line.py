@@ -1,4 +1,4 @@
-'''#draw line
+#draw line
 from tkinter import *
 root=Tk()
 c=Canvas(root,width=600,height=500)
@@ -14,7 +14,7 @@ c=Canvas(root,width=600,height=500)
 c.pack()
 c.create_oval(70,120,300,150,fill="red",outline="black", width=4)
 root.mainloop()
-'''
+
 #create arc
 from tkinter import *
 root=Tk()
